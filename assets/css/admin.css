@@ -1,0 +1,76 @@
+/* Timezone Test Plugin Admin Styles */
+
+.timezone-test {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.timezone-test-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.timezone-test-section h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.timezone-form .form-table th {
+    width: 200px;
+}
+
+.timezone-form input[type="number"] {
+    width: 200px;
+}
+
+.timezone-form input[type="datetime-local"] {
+    width: 250px;
+}
+
+/* Results table styling */
+.timezone-test table.widefat {
+    margin-top: 20px;
+}
+
+.timezone-test table.widefat th {
+    width: 200px;
+    font-weight: 600;
+}
+
+.timezone-test table.widefat td,
+.timezone-test table.widefat th {
+    padding: 12px;
+    vertical-align: top;
+}
+
+/* Cache section styling */
+.timezone-test-section.cache-section {
+    background: #f8f9fa;
+}
+
+.timezone-test-section.cache-section .description {
+    margin-bottom: 15px;
+}
+
+/* Settings form styling */
+.timezone-form .description {
+    margin: 2px 0 5px;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .timezone-form .form-table th {
+        width: 100%;
+        display: block;
+    }
+
+    .timezone-form input[type="number"],
+    .timezone-form input[type="datetime-local"] {
+        width: 100%;
+    }
+}

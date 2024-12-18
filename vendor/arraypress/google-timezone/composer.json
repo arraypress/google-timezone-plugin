@@ -1,0 +1,48 @@
+{
+  "name": "arraypress/google-timezone",
+  "version": "1.0.0",
+  "description": "A PHP library for integrating with the Google Maps Timezone API in WordPress, providing comprehensive timezone detection and information. Features WordPress transient caching and WP_Error support.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/google-timezone/",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\Google\\Timezone\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/arraypress/google-timezone/issues",
+    "source": "https://github.com/arraypress/google-timezone"
+  },
+  "keywords": [
+    "timezone-detection",
+    "google-maps",
+    "timezone-api",
+    "geolocation",
+    "time-zones",
+    "wordpress",
+    "dst-detection",
+    "timezone-conversion",
+    "location-based-time",
+    "international-time",
+    "timezone-lookup",
+    "google-timezone",
+    "time-offset",
+    "timezone-utilities",
+    "geographic-time"
+  ]
+}
